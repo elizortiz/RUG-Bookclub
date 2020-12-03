@@ -1,0 +1,278 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  background-color: white;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  background-color: #a4303f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.header-title {
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 1px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  padding: 5px 10px;
+}
+
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
+}
+
+.intro {
+  text-align: center;
+  padding-top: 10px;
+  color: #a4303f;
+  height: 600px;
+  width: 100%;
+  background-image: url(https://res.cloudinary.com/dpqqhxsau/image/upload/v1606569621/pexels-thought-catalog-2228557_lkuzwj.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.upcoming-book {
+  width: 100%;
+  display: flex;
+  background-color: #a4303f;
+}
+
+.left-col {
+  text-align: left;
+  color: white;
+  flex-basis: 100%;
+  position: relative;
+  padding: 40px 60px;
+}
+
+.left-col p {
+  line-height: 1.6;
+}
+
+#quote {
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.right-col {
+  flex-basis: 20%;
+  position: relative;
+  align-self: center;
+}
+
+.cover {
+  max-width: 450px;
+  max-height: 450px;
+  padding: 20px 40px;
+  background-color: #a4303f;
+}
+
+.sign-up {
+  text-align: center;
+  padding-top: 10px;
+  background-color: white;
+  color: #a4303f;
+  height: 400px;
+  width: 100%;
+  background-image: url(https://res.cloudinary.com/dpqqhxsau/image/upload/v1606574567/pexels-karolina-grabowska-5706223_copy_deewsm.jpg);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+}
+
+input {
+  width: 60%;
+  padding: 10px;
+  margin: 3px;
+  border: 1px solid #a4303f;
+  border-radius: 6px;
+  color: black;
+}
+
+input[type="text"] {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+}
+
+button {
+  background-color: #a4303f;
+  width: 60%;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  margin: 4px;
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+footer {
+  background-color: #a4303f;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+}
+
+.books2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.books h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.whyimnot img {
+  height: unset;
+  width: 240px;
+}
+
+.whyimnot h3 {
+  line-break: strict;
+}
+
+.iknowwhy img {
+  height: unset;
+  width: 240px;
+}
+
+.ifbealest img {
+  height: unset;
+  width: 240px;
+}
+
+.thingsfall img {
+  height: unset;
+  width: 240px;
+}
+
+.throughleopard img {
+  height: unset;
+  width: 240px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: #a4303f;
+  height: 100px;
+}
+
+#container {
+  min-height: 100px;
+display: flex;
+margin-bottom: 100px;
+}
+
+
+.leftcol {
+  text-align: center;
+  background-color: #a4303f;
+  color: white;
+  width: 50vw;
+  position: relative;
+}
+
+.text1 {
+  height: 200px;
+  position: absolute;
+  width: 100%;
+  top: 0px; right: 0px; bottom: 100px;
+}
+
+.text1 h1 {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.text2 {
+  background-color: white;
+  color: black;
+  height: 200px;
+  padding-top: 10px;
+  position: absolute;
+  top: 200px;
+}
+
+.text2 h2 {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.rightcol {
+  background-color: white;
+  color: black;
+  text-align: center;
+width: 50vw;
+position: relative;
+margin-bottom: 100px;
+}
+
+.text3 {
+  height: 200px;
+  background-color: white;
+  color: black;
+
+}
+
+.text3 h3 {
+  font-size: large;
+  font-weight: bold;
+}
+
+.text4 {
+  color: white;
+  background-color: #a4303f;
+  height: 200px;
+  position: absolute;
+  top: 200px;
+}
+
+.fab fa-instagram-square {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+
+  font-size: larger;
+}
+
+.roadpic {
+  color: #A4303F; 
+  height: 500px;
+  width: 100%;
+  background-image: url(https://images.pexels.com/photos/4642503/pexels-photo-4642503.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-position: center;
+  background-size: cover;
+}
+ 
